@@ -81,6 +81,9 @@ export default function InputForm() {
 		};
 
 		fetchData();
+		const intervalId = setInterval(fetchData, 5000);
+
+		return () => clearInterval(intervalId);
 	}, []);
 
 	useEffect(() => {
