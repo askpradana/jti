@@ -14,11 +14,12 @@ Tingali.ie is a fullstack app that generates and manages phone numbers for diffe
 To run this project, you need to have Go, Next.js, and PostgreSQL installed on your system.
 
 1. Clone this repository
-2. on fe/ edit file 'jti' to .env
-3. On fe/ Run `npm install` to install the dependencies for the frontend
-4. on fe/ Run `npm run dev` to start the frontend server on http://localhost:3000
-5. on be/ Run `go mod download` to install the dependencies for the backend
-6. on be/ Run `go run main.go` to start the backend server on http://localhost:4321
+2. configure your own db on be/src/db.go
+3. on fe/ edit file 'jti' to .env
+4. On fe/ Run `npm install` to install the dependencies for the frontend
+5. on fe/ Run `npm run dev` to start the frontend server on http://localhost:3000
+6. on be/ Run `go mod download` to install the dependencies for the backend
+7. on be/ Run `go run main.go` to start the backend server on http://localhost:4321
 
 ## Usage
 
